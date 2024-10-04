@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Chat</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="home-menus">
+        <div>
+          <a href="chatList.html" id="group-chat-link"><h2>Group Chat</h2></a>
+        </div>
+        <div>
+          <a href="manageUsers.html" id="manage-users-link"
+            ><h2>Manage Users</h2></a
+          >
+        </div>
+        <div>
+          <a href="manageDocuments.html" id="manage-documents-link"
+            ><h2>Manage Documents</h2></a
+          >
+        </div>
+        <div>
+          <a href="logout.html" id="logout-button"><h2>Logout</h2></a>
+        </div>
+      </div>
+    </div>
+    <div id="chat-container" class="abc">
+      <h2 class="centre">Group Chat</h2>
+      <div id="chat-body" class="def">
+        <!-- Chat messages will be displayed here -->
+      </div>
+
+      <div class="ghi">
+        <strong><span class="name" id="logged-in-user"></span></strong>
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Type your message..."
+        />
+        <button style="cursor: pointer" id="send-button">Send</button>
+        <button style="cursor: pointer" id="refresh-button">Refresh</button>
+      </div>
+    </div>
+    <script type="Module" src="chatList.js"></script>
+    <script src="logout.js"></script>
+  </body>
+</html>
