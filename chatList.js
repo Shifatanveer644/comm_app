@@ -73,3 +73,5 @@ window.onload = () => {
   checkLoggedIn(); // Check if the user is logged in
   loadChatMessages(); // Load existing chat messages
 };
+
+//adding changes
